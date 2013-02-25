@@ -1,0 +1,62 @@
+html {
+	font-size: 100%;
+}
+
+body {
+	font-family: sans-serif;
+	font-size: 1em;
+}
+
+li {
+	float: left;
+	margin-top: 0.25em;
+	margin-bottom: 0.25em;
+	margin-left: 0.313%;
+	margin-right: 0.313%;
+	padding: 0.25em;
+	list-style: none;
+	font-size: 1.2em;
+	border: 1px solid fuchsia;
+}
+
+h2 {
+	clear:both;
+}
+
+ul {
+	float: right;
+/*	border: 1px solid red;*/
+	margin: 0.313%;
+	padding: 0;
+	width: 75%;
+	margin-bottom: 1.5em;
+	text-align: center;
+}
+
+.grid_8 {
+	width: 640px;
+	width: 628px;
+	margin: 0 6px 0 6px;
+	width: 66%;
+	width: 65.4%
+	margin: 0 0.625%
+	float: left;
+	max-width: 47em;
+}
+
+.prefix_2 {
+	margin-left: 160px;
+	margin-left: 16.6%
+}
+
+.grid_2 {
+	width: 148px;
+	width: 15.4%;
+	margin: 0 0.625%;
+	float: left;
+}
+
+.note {
+	clear: left;
+	margin-bottom: 1.5em;
+}
