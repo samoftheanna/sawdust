@@ -1,0 +1,92 @@
+body {
+	font-family: sans-serif;
+	width: 99%;
+	font-size: 100%;
+}
+
+nav {
+	background-color: #fd9a2f;
+	padding: .625% 1.25% 2.5% 1.25%;
+}
+
+/*
+h1 {
+	clear: left;
+}
+*/
+ul {
+/*	border: 1px solid red;*/
+	margin: .208%;
+	padding: 0;
+	margin-bottom: 2.5%;
+/*	text-align: center;*/
+}
+
+li {
+	float: left;
+	margin-top: .417%;
+	margin-bottom: .417%;
+	margin-left: .208%;
+	margin-right: .208%;
+	padding: .417%;
+	list-style: none;
+	font-size: 125%;
+	border: 1px solid #f5348b;
+	background-color: #fff;
+}
+
+a {
+	text-decoration: none;
+	color: inherit;
+}
+
+a:hover {
+	color: #f5348b;
+}
+
+
+article {
+	clear: both;
+}
+
+h2 {
+	clear:both;
+}
+
+.grid_8 {
+	width: 65.416%;
+	margin: 0 .625%;
+	float: left;
+}
+
+.prefix_2 {
+	margin-left: 17.292%;
+}
+
+.grid_2 {
+	width: 15.416%;
+	margin: 0 .625%;
+	float: left;
+}
+
+.notes {
+	clear: left;
+	margin-left: 84.583%;
+/*	margin-left: .625%;*/
+}
+
+.note {
+	margin-bottom: 2.5%;
+	font-family: cursive;
+	font-size: 75%;
+}
+
+p.note:before {
+	content: ">> ";
+	color: #f5348b;
+	font-family: sans-serif;
+}
+
+.noted {
+	color: #f5348b;
+}
