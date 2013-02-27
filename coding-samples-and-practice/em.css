@@ -1,0 +1,109 @@
+body {
+	font-family: sans-serif;
+	width: 960px;
+	font-size: 62.5%;
+}
+
+nav {
+	background-color: #fd9a2f;
+	padding: .6em 1.2em 2.4em 1.2em;
+}
+
+/*
+h1 {
+	clear: left;
+}
+*/
+ul {
+/*	border: 1px solid red;*/
+	margin: .2em;
+	padding: 0;
+	margin-bottom: 2.4em;
+/*	text-align: center;*/
+}
+
+li {
+	float: left;
+	margin-top: .2em;
+	margin-bottom: .2em;
+	margin-left: .1em;
+	margin-right: .1em;
+	padding: .2em;
+	list-style: none;
+	font-size: 2em;
+	border: .05em solid #f5348b;
+	background-color: #fff;
+}
+
+p {
+	font-size: 1.6em;
+}
+
+h2 {
+	font-size: 2.4em;
+}
+
+h1 {
+	font-size: 3.2em;
+}
+
+h3 {
+	font-size: 1.9em;
+}
+
+a {
+	text-decoration: none;
+	color: inherit;
+}
+
+a:hover {
+	color: #f5348b;
+}
+
+
+article {
+	clear: both;
+}
+
+h2 {
+	clear:both;
+}
+
+.grid_8 {
+	width: 62.8em;
+	margin: 0 .6em;
+	float: left;
+	max-width: 75.2em;
+}
+
+.prefix_2 {
+	margin-left: 16.6em;
+}
+
+.grid_2 {
+	width: 14.8em;
+	margin: 0 .6em;
+	float: left;
+}
+
+.notes {
+	clear: left;
+	margin-left: 81.2em;
+/*	margin-left: .6em;*/
+}
+
+.note {
+	margin-bottom: 2.4em;
+	font-family: cursive;
+	font-size: 1.2em;
+}
+
+p.note:before {
+	content: ">> ";
+	color: #f5348b;
+	font-family: sans-serif;
+}
+
+.noted {
+	color: #f5348b;
+}
