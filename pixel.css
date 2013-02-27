@@ -1,5 +1,6 @@
 body {
 	font-family: sans-serif;
+	width: 960px;
 }
 
 nav {
@@ -28,7 +29,7 @@ li {
 	margin-right: 2px;
 	padding: 4px;
 	list-style: none;
-	font-size: 1.2em;
+	font-size: 20px;
 	border: 1px solid #f5348b;
 	background-color: #fff;
 }
@@ -69,19 +70,21 @@ h2 {
 }
 
 .notes {
-		clear: left;
-		margin-left: 812px;
+	clear: left;
+	margin-left: 812px;
+/*	margin-left: 6px;*/
 }
 
 .note {
 	margin-bottom: 24px;
-	font-style: italic;
-	font-size: 14px;
+	font-family: cursive;
+	font-size: 12px;
 }
 
 p.note:before {
 	content: ">> ";
 	color: #f5348b;
+	font-family: sans-serif;
 }
 
 .noted {

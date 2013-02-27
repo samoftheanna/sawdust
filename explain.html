@@ -29,13 +29,19 @@
 	</section>
 	<section class="grid_8 prefix_2">
 	<h3 id="elastic">elastic</h3>
-	<p>elastic layouts are designed to look good no matter the <em class="noted" id="note1">zoom</em> of the viewport. from what i've read, it seems like this is no longer such an important capability. however, the emphasis on using <em class="noted" id="note2">ems</em> as a unit seems to be the most lasting influence on designs today.</p>
+	<p>elastic layouts are designed to look good no matter the <em class="noted" id="note1">zoom</em> of the viewport. from what i've read, it seems like this is no longer such an important capability. however, the emphasis on using <em class="noted" id="note2">ems</em> as a unit seems to be the most lasting influence on designs today. because an em is a relative unit, relative to the font-size of the parent, it will expand and contract as the font-size changes.</p>
+	</section>
+	<section class="grid_8 prefix_2">
+	<h3 id="fluid">fluid</h3>
+	<p>fluid layouts are, in my mind, a kind of best of both worlds approach. where a fixed layout remains uniform and an elastic layout can expand or contract to fit a given space, a fluid layout <em>changes</em> to fit the given space, maintaining a consistently good looking design. fluid layouts use relative units. these can include ems, <em class="noted" id="note4">rems</em>, or percentages.</p>
+	<p>percentages are based on the "containing element" for width and height. for font sizing, the percentage is of the base font-size. fluid layouts can also use ems or rems alongside percentages.</p>
 	</section>
 </article>
 <aside class="grid_2 notes">
 <p class="note" title="note1">or base font-size</p>
 <p class="note" title="note2">a typographic unit of measure equivalent to the size of a letter "M"</p>
 <p class="note" title="note3">a sample note to test my function</p>
+<p class="note" title="note4">"rem" is a new unit in CSS3. it stands for "root em" which helps avoid problems caused by the compounding issue of em sizing.</p>
 </aside>
 <script type="text/javascript">
 $("em.noted").each(function () {

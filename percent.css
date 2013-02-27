@@ -1,58 +1,92 @@
 body {
 	font-family: sans-serif;
-	font-size: 100%;
+	width: 960px;
+}
+
+nav {
+	background-color: #fd9a2f;
+	padding: 6px 12px 24px 12px;
+}
+
+/*
+h1 {
+	clear: left;
+}
+*/
+ul {
+/*	border: 1px solid red;*/
+	margin: 2px;
+	padding: 0;
+	margin-bottom: 24px;
+/*	text-align: center;*/
 }
 
 li {
 	float: left;
-	margin-top: 0.25em;
-	margin-bottom: 0.25em;
-	margin-left: 0.313%;
-	margin-right: 0.313%;
-	padding: 0.25em;
+	margin-top: 4px;
+	margin-bottom: 4px;
+	margin-left: 2px;
+	margin-right: 2px;
+	padding: 4px;
 	list-style: none;
-	font-size: 1.2em;
-	border: 1px solid fuchsia;
+	font-size: 20px;
+	border: 1px solid #f5348b;
+	background-color: #fff;
+}
+
+a {
+	text-decoration: none;
+	color: inherit;
+}
+
+a:hover {
+	color: #f5348b;
+}
+
+
+article {
+	clear: both;
 }
 
 h2 {
 	clear:both;
 }
 
-ul {
-	float: right;
-/*	border: 1px solid red;*/
-	margin: 0.313%;
-	padding: 0;
-	width: 75%;
-	margin-bottom: 1.5em;
-	text-align: center;
-}
-
 .grid_8 {
-	width: 640px;
 	width: 628px;
-	margin: 0 6px 0 6px;
-	width: 66%;
-	width: 65.4%
-	margin: 0 0.625%
+	margin: 0 6px;
 	float: left;
-	max-width: 47em;
+	max-width: 752px;
 }
 
 .prefix_2 {
-	margin-left: 160px;
-	margin-left: 16.6%
+	margin-left: 166px;
 }
 
 .grid_2 {
 	width: 148px;
-	width: 15.4%;
-	margin: 0 0.625%;
+	margin: 0 6px;
 	float: left;
 }
 
-.note {
+.notes {
 	clear: left;
-	margin-bottom: 1.5em;
+	margin-left: 812px;
+/*	margin-left: 6px;*/
+}
+
+.note {
+	margin-bottom: 24px;
+	font-family: cursive;
+	font-size: 12px;
+}
+
+p.note:before {
+	content: ">> ";
+	color: #f5348b;
+	font-family: sans-serif;
+}
+
+.noted {
+	color: #f5348b;
 }
