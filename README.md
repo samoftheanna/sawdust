@@ -3,6 +3,6 @@ sawdust stands for "Superbly Awesome Web Development Understanting and Study Tim
 
 tyler was the genius behind it in the beginning, but when he went on to bigger and better, we decided to carry on.
 
-we meet once a month and try to learn and practice new skills as a group.
+we meet every other week and try to learn and practice new skills as a group.
 
 _here_ we will attempt to build a project together. 
