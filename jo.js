@@ -13,3 +13,5 @@ $(document).ready(function() {
 				ctx.closePath();  
 				ctx.stroke();  
             });
+
+            
