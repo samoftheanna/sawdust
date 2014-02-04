@@ -32,20 +32,19 @@ intro[23]="Canvas_sprites/Other/anim115.png"
 var canvas = document.getElementById("myCanvas");  
 var ctx = canvas.getContext("2d");
 
-make_base();
-
-for(var i = 0; i < intro.length; i++){
-	function make_base(){
+function make_base(a){
 		base_image = new Image();
-		base_image.src = intro[i];
+		base_image.src = intro[a];
 		base_image.onload = function(){
 			ctx.drawImage(base_image, 100, 100);
 		};
 	}
-}
+		
+for(var i = 0; i < intro.length; i++){
+	make_base(i);
+	}	
 	
-	
-	});
+});
 
 
 
